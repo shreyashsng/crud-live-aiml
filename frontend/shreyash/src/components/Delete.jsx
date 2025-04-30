@@ -5,7 +5,7 @@ function Delete() {
     const handelDelete=async(e)=>{
         e.preventDefault()
         const id=e.target.id.value;
-        await axios.delete(`http://localhost:9000/users/${id}`)
+        await axios.delete(`https://crud-live-aiml.onrender.com/users/${id}`)
         alert("deleted successfuly!")
     }
   return (

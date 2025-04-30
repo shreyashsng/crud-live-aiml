@@ -9,7 +9,7 @@ const Register=()=>{
             age:e.target.age.value
         }
 
-        await axios.post(`http://localhost:9000/users`,user)
+        await axios.post(`https://crud-live-aiml.onrender.com/users`,user)
         alert("data successfully saved")
     }
 
